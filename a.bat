@@ -1,1 +1,0 @@
-minerd -a groestl -o stratum+tcp://erebor.dwarfpool.com:3345 -u FWnDoYPoVxusJZTbLpwHUmaKMkvo94u5Mp -p x -t 3

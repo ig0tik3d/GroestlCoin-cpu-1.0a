@@ -22,6 +22,6 @@ minerd_SOURCES	= elist.h miner.h compat.h \
 		   groestlcoin.c
 		  
 minerd_LDFLAGS	= $(PTHREAD_FLAGS)
-minerd_LDADD	= @LIBCURL@ @JANSSON_LIBS@ @PTHREAD_LIBS@ @WS2_LIBS@ 
+minerd_LDADD	= @LIBCURL@ @JANSSON_LIBS@ @PTHREAD_LIBS@ @WS2_LIBS@ -lssl -lcrypto
 minerd_CPPFLAGS = @LIBCURL_CPPFLAGS@
 
